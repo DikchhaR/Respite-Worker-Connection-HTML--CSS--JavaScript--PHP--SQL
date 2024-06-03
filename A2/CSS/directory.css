@@ -1,0 +1,33 @@
+main{
+    background-image: url(../Images/background.jpg);
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 20pt;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+.container{
+    display:unset;
+    background-color: #e3e0e0;
+    display:inline-flexbox;
+}
+
+
+.data-row {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2%;
+    align-content: center;
+    width:50%;
+}
+.data-label {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 5px;
+    color: rebeccapurple;
+}

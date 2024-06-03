@@ -1,0 +1,486 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 800px;
+    
+}
+main{
+    background-image: url(../Images/background.jpg);
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+
+
+}
+#wrapper{
+
+    text-align: left;
+    color:rgb(17, 16, 16);
+    padding:2%;
+    margin-top:0%;
+    margin-bottom: auto;
+    
+}
+img{
+    text-align: right;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    background-color:rgb(212, 211, 211);
+    color: black;
+    padding:0;
+} 
+
+ 
+input,button,textarea{
+    border:none;
+    outline:none;
+}
+.line{
+    border-bottom: 2px solid rgb(220, 104, 16);
+    padding: 10px 0;
+    transition: border-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.line:hover {
+    border-color: #555; /* Example hover effect */
+}
+  
+.main-heading h2{
+    font-size: 30px;
+    margin:0px;
+    letter-spacing: 3px;
+    color:#0b0b0b;
+    padding-bottom: 1%;
+    padding-left: .4%;
+    padding: 1%;
+
+}
+.main-heading p{
+    font-family: cursive;
+    font-size: 16pt;
+}
+.main-btn{
+    width:120px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ea7b36;
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.main-btn:hover{
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+/* Navigation stes */
+header nav{
+    display:flex;
+    text-align: right;  
+}
+
+header p{
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #fc6f41;
+}
+nav ul {
+    list-style-type: none;
+    padding-top: 10%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-align: right;
+    align-items: end;
+
+}
+
+nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+
+}
+nav ul li a:hover{
+
+    background-color:#fc6f41;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+.active{
+    background-color:#fc6f41;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+
+/* Main content styles */
+.main {
+    padding: 20px;
+    width:100%;
+    height:100%;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* background-image: url(../Images/rainbow2.jpg); */
+} 
+.main-heading{
+
+    margin: 5%;
+    padding: 3%;
+    text-align: center;
+}
+section {
+    margin-bottom: 30px;
+}
+section ul li{
+    display: inline;
+}
+section ul li a{
+
+    text-decoration: none;
+    color:#0b0b0b;
+    font-size: 16pt;
+    display: inline;
+
+}
+img{
+    align-self: flex-start;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #0d0d0d;
+    padding:0;
+    text-align: center;
+    height:300px;
+    align-self:end;
+    position: relative;
+    margin-top: auto;
+}
+
+footer nav ul {
+    margin: 0;
+}
+
+body footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-align: right;
+}
+
+body footer nav ul li a {
+    color: #121111;
+    text-decoration: none;
+}
+#wrapper6 h1 {
+    text-align: center;
+
+}
+.features{
+    width:100%;
+    height:90vh;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -100px;
+}
+.feature-container{
+display:flex;
+justify-content:center;
+align-items: center;
+padding-top:10%;
+}
+
+.feature-box{
+    background-color:rgb(157, 213, 157);
+    width:400px;
+    height:500px;
+    margin:20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+    padding: 6%;
+}
+.typesofrespite{
+    text-align:center;
+    
+    font-family: cursive;
+    color:#0b0b0b;
+    padding-left: 3%;
+    
+}
+
+
+.typesofrespite h2{
+    background-color: rgb(135, 239, 135);
+    box-sizing: border-box;
+    padding: 1%;MAIN
+}
+.typesofrespite ul {
+    list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+.typesofrespite ul li{
+    display: inline;
+    margin-right: 6%;
+    font-size: 14pt;
+}
+.typesofrespite ul li:hover{
+    color:#ea7b36;
+}
+.f-text{
+    text-align:center;
+    margin-top: .5%;
+    padding-bottom: 1%;
+
+}
+#wrapper6 {
+    background-color: rgb(54, 49, 67);
+    border-radius: 1.5%;
+    font-size: 13pt;
+    margin-top: 2%;
+    padding-top: 1%;
+    border: 1px solid rgb(30, 36, 52);
+    width: 60%;
+    height: 80% fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./Images/rainbow.jpg);
+    color:rgb(15, 15, 15);
+}
+
+#wrapper6 .formcontainer h1 {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    text-decoration: underline;
+}
+.formcontainer{
+
+    margin-top:2%;
+    margin-left: 2%;
+    margin-right: 30%;
+    padding-top:2%;
+    padding-left: 2%;
+    padding-right: 8%;
+    align-self: center;
+    align-items: center;
+}
+.textfield{
+    color: blue;
+}
+
+.formcontainer.textfield {
+
+padding-bottom: 2%;
+border-radius: 1%;
+color:rgb(17, 16, 16);
+
+}
+
+
+#register{
+    background-color: yellow;
+    color:black;
+    padding: 1%;
+    margin: 2%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14pt;
+   
+}
+#login{
+    background-color: red;
+    color:white;
+    padding: .5%;
+
+}
+
+.error{
+    color: red;
+}
+/*...........Respite.html page---------------*/
+
+.main-headingrespite h1{
+    padding-top: 2%;
+        padding-bottom: 0;
+        margin:1%;
+        font-weight: bold;
+        text-align: center;
+        color:green;
+    }
+    .main-headingrespite p{
+    
+        padding-left:15%;
+        padding-right:15%;
+        padding-top: 0;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .checkboxrespite{
+        font-size: 14pt;
+        color:#0b0b0b;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top:0;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-image: url(../Images/painthands.jpg); */
+    color: #fc6f41;
+}
+.box p{
+    color:#0b0b0b;
+}
+
+.directory {
+    background-color: #f0f0f0;
+}
+
+.registration-form {
+    background-color: #e0e0e0;
+
+}   
+
+
+
+    
+header nav{
+    display:flex;
+    text-align: right;  
+}
+
+header p{
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #fc6f41;
+}
+nav ul {
+    list-style-type: none;
+    padding-top: 10%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-align: right;
+    align-items: end;
+
+}
+
+nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+
+}
+nav ul li a:hover{
+
+    background-color:#fc6f41;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+
+@media screen and (max-width: 700px){
+    #wrapper{
+        width:65%;
+        padding:40px;
+    }
+    .textfield{
+        width:65%;
+        padding:40px; 
+    }
+}
+/* .main-headingrespite H1{
+    padding-top: 2%;
+        padding-bottom: 0;
+        margin:1%;
+        font-weight: bold;
+        text-align: center;
+    }
+    .main-headingrespite p{
+        margin:5%;
+        padding-left:15%;
+        padding-right:5%;
+        padding-top: 0;
+        font-size: 14pt;
+        text-align: center;
+    } */
+    
+/* 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+
+/* .box {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+/* 
+.directory {
+    background-color: #f0f0f0;
+}
+
+.registration-form {
+    background-color: #e0e0e0;
+} */

@@ -1,0 +1,82 @@
+
+header nav{
+    display:flex;
+    text-align: right;  
+}
+
+header p{
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #fc6f41;
+}
+nav ul {
+    list-style-type: none;
+    padding-top: 10%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-align: right;
+    align-items: end;
+
+}
+
+nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+
+}
+nav ul li a:hover{
+
+    background-color:#fc6f41;
+    box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+.main-headingrespite H1{
+    padding-top: 2%;
+        padding-bottom: 0;
+        margin:1%;
+        font-weight: bold;
+        text-align: center;
+    }
+    .main-headingrespite p{
+        margin:5%;
+        padding-left:15%;
+        padding-right:5%;
+        padding-top: 0;
+        font-size: 14pt;
+        text-align: center;
+    }
+    
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.directory {
+    background-color: #f0f0f0;
+}
+
+.registration-form {
+    background-color: #e0e0e0;
+}
